@@ -1,0 +1,215 @@
+html {
+	min-height: 100%;
+    position: relative;
+}
+
+body {
+	margin: 0 0 3em;
+	background-image: url('../img/outruncity_trimmed.gif'), url('../img/outruncity_nobuild.gif'), -webkit-linear-gradient(#333333, #A06060); /* For Safari 5.1 to 6.0 */
+    background-image: url('../img/outruncity_trimmed.gif'), url('../img/outruncity_nobuild.gif'), -o-linear-gradient(#333333, #A06060); /* For Opera 11.1 to 12.0 */
+    background-image: url('../img/outruncity_trimmed.gif'), url('../img/outruncity_nobuild.gif'), -moz-linear-gradient(#333333, #A06060); /* For Firefox 3.6 to 15 */
+    background-image: url('../img/outruncity_trimmed.gif'), url('../img/outruncity_nobuild.gif'), linear-gradient(#333333, #A06060); /* Standard syntax */ 
+	/*
+    background-image: url('../img/outruncity_trimmed.gif'), url('../img/outruncity_nobuild.gif'), -webkit-linear-gradient(#333333, #A06060, #9F6028);
+    background-image: url('../img/outruncity_trimmed.gif'), url('../img/outruncity_nobuild.gif'), -o-linear-gradient(#333333, #A06060, #9F6028);
+    background-image: url('../img/outruncity_trimmed.gif'), url('../img/outruncity_nobuild.gif'), -moz-linear-gradient(#333333, #A06060, #9F6028);
+    background-image: url('../img/outruncity_trimmed.gif'), url('../img/outruncity_nobuild.gif'), linear-gradient(#333333, #A06060, #9F6028);
+    */
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.75em;
+    overflow-x:hidden;
+    background-repeat: no-repeat, repeat-x;
+    background-attachment: fixed, fixed;
+    background-position: left bottom, bottom;
+}
+
+body a {
+    color: #707070;
+}
+
+body a:hover {
+    color: #cccccc;
+}
+
+h1.gw {
+    letter-spacing: 2px;
+    font-size: 4em;
+    font-weight: 100;
+    margin-top: 0.5em;
+}
+
+h2.gw {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-top: 0.5em;
+}
+
+h3.gw {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0em 0em 0.3em 0em;
+}
+
+p.gw {
+    margin: 2em 0em 2em 0em;
+}
+
+ul.gw {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+figcaption.gw {
+    background:rgba(0,0,0,0.5);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.background-overlay-gw {
+    height: 100vh;
+    width: 100%;
+    background: rgba(255,255,255,0.65);
+}
+
+.icon-color-gw {
+    color: #ffffff;
+}
+
+.row-gw {
+    margin-bottom: 1em;
+}
+
+.row-img-gw {
+    margin: 2em 0em 2em 0em;
+    text-align: center;
+}
+
+.multi-img-gw img {
+    margin-bottom: 2em;
+}
+
+.top-row-gw {
+    margin-top: 2em;
+}
+
+.nav-row-gw {
+    margin: 1em 0em 1em 0em;
+}
+
+.home-hero-gw {
+    background:url('../img/outruncity_nobuild.gif');
+    overflow-x:hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+}
+
+.work-hero-gw {
+    background-color: #414141;
+    background:url('../img/outruncity_nobuild.gif');
+    height: 266px;
+    background-repeat: repeat-x;
+}
+
+.work-hero-gw img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title-gw {
+	margin-top: 8px;
+	font-size: 1.75em;
+	color: #E9E9E9;
+}
+
+.header-subtext-gw {
+	font-size: 0.6em;
+	color: #777777;
+}
+
+.center-item-gw { 
+	margin: 0 auto;
+}
+
+.home-jumbo-gw {
+	background:url('../img/outruncity_large_dark.gif');
+	background-position: left bottom;
+	color: #f2f2f2;
+	background-color: transparent;
+	padding: 80px 0px 40px 0px;
+}
+
+.jumbo-body-text-gw {
+	padding-top: 40px;
+	font-size: 1.2em;
+}
+
+.sticky-header-gw {
+	background: rgba(30, 30, 30, 0.85);
+	border: none;
+}
+
+.bottom-aligned-gw {
+	position:relative; 
+	top:90%; 
+	height:10em; 
+	margin-top:-5em;
+}
+
+.work-sample-img-gw {
+    width: 100%;
+    height: auto;
+}
+
+.image-caption-container-gw {
+    position: relative; 
+    width: 100%; /* for IE 6 */
+}
+
+.image-caption-container-gw img {
+    display: block;
+    margin-bottom: 1em;
+    border-style: none;
+}
+
+.image-caption-gw {
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 1em;
+}
+
+.image-caption-gw p {
+    margin-bottom: 1em;
+}
+
+.weak-text-gw {
+    color: #c4c4c4;
+}
+
+.footer-gw {
+    padding: 1em 0em 1em 0em;
+	background-color: #5d5c5c;
+    color: #ffffff;
+    height: 3em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-gw a {
+    color: #ffffff;
+}
+
+.footer-links-gw {
+	color: #fafafa;
+}
+
+.footer-links-gw:hover {
+	color: #fafafa;
+}
