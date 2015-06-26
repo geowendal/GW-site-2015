@@ -26,11 +26,11 @@ body {
 }
 
 body a {
-    color: #707070;
+    color: #333333;
 }
 
 body a:hover {
-    color: #cccccc;
+    color: #333333;
 }
 
 h1.gw {
@@ -77,7 +77,7 @@ figcaption.gw {
 }
 
 .icon-color-gw {
-    color: #ffffff;
+    color: #333333;
 }
 
 .row-gw {
@@ -135,24 +135,6 @@ figcaption.gw {
 
 .center-item-gw { 
 	margin: 0 auto;
-}
-
-.home-jumbo-gw {
-	background:url('../img/outruncity_large_dark.gif');
-	background-position: left bottom;
-	color: #f2f2f2;
-	background-color: transparent;
-	padding: 80px 0px 40px 0px;
-}
-
-.jumbo-body-text-gw {
-	padding-top: 40px;
-	font-size: 1.2em;
-}
-
-.sticky-header-gw {
-	background: rgba(30, 30, 30, 0.85);
-	border: none;
 }
 
 .bottom-aligned-gw {
